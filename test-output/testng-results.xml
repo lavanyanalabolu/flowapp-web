@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Project Page" duration-ms="59728" started-at="2017-09-20T11:03:30Z" finished-at="2017-09-20T11:04:29Z">
+    <groups>
+    </groups>
+    <test name="Project Page-Tests" duration-ms="59728" started-at="2017-09-20T11:03:30Z" finished-at="2017-09-20T11:04:29Z">
+      <class name="testingxperts.web.tests.FLOW_TC_01">
+        <test-method status="PASS" signature="test(java.util.HashMap)[pri:0, instance:testingxperts.web.tests.FLOW_TC_01@29647f75]" name="test" duration-ms="58994" started-at="2017-09-20T16:33:30Z" description="Login to the application and create projects and tasks" data-provider="getExcelTestData" finished-at="2017-09-20T16:34:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{subscriber=vijay, subscriberUname=vijay.javvadi@testingxperts.com, subscriberPwd=Javi!@2529, ProjectName=TestFlowProject, TaskName=QaTestTask, assigneeUname=suman.ananthula@testingxperts.com, assigneePwd=suman123, assignee=suman, DueDate=30-Jun-2017}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testingxperts.web.tests.FLOW_TC_01 -->
+    </test> <!-- Project Page-Tests -->
+  </suite> <!-- Project Page -->
+  <suite name="Task Page" duration-ms="0" started-at="2017-09-20T11:04:29Z" finished-at="2017-09-20T11:04:29Z">
+    <groups>
+    </groups>
+    <test name="Task Page-Tests" duration-ms="0" started-at="2017-09-20T11:04:29Z" finished-at="2017-09-20T11:04:29Z">
+    </test> <!-- Task Page-Tests -->
+  </suite> <!-- Task Page -->
+</testng-results>
