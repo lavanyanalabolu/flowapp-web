@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Project Page]">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="Project Page-Tests(failed)">
     <classes>
       <class name="testingxperts.web.tests.FLOW_TC_01">
         <methods>
@@ -9,5 +10,5 @@
         </methods>
       </class> <!-- testingxperts.web.tests.FLOW_TC_01 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Project Page-Tests(failed) -->
+</suite> <!-- Failed suite [Project Page] -->

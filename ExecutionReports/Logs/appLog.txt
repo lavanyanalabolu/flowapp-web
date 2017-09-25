@@ -36088,3 +36088,88 @@ Session ID: 4a0bf6de43637ba337ebe409004c2aef
 2017-09-20 16:34:29 INFO  - Project Page suite finished at Wed Sep 20 16:34:29 IST 2017
 2017-09-20 16:34:29 INFO  - Test process has ended
 2017-09-20 16:34:29 INFO  - History File created successfully
+2017-09-25 16:41:24 INFO  - 
+
++============================================================================================================================+
+2017-09-25 16:41:24 INFO  - Project Page suite started at Mon Sep 25 16:41:24 IST 2017
+2017-09-25 16:41:24 INFO  - Suite Browser: Chrome
+2017-09-25 16:41:26 INFO  - +=============Database started=============+
+2017-09-25 16:41:26 INFO  - Database driver name: SQLiteJDBC
+2017-09-25 16:41:26 INFO  - Product name SQLite, Version 3.8.11
+2017-09-25 16:41:26 INFO  - +==========================================+
+
+2017-09-25 16:41:26 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-09-25 16:41:26 INFO  - Test Started: FLOW_TC_01
+2017-09-25 16:41:26 INFO  - Test description: Create a project and assign task and subscribe the task and check for the catchup funcationality
+2017-09-25 16:41:26 INFO  - Test is started with browser: Chrome
+2017-09-25 16:41:31 INFO  - Open Login Page
+2017-09-25 16:41:31 INFO  - Navigate to: https://app-qa.staircar.com
+2017-09-25 16:41:35 INFO  - Open Login Page
+2017-09-25 16:41:35 INFO  - Login into Application
+2017-09-25 16:41:35 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 16:41:35 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 16:41:35 INFO  - Click: By.name: session[password]
+2017-09-25 16:41:35 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 16:41:35 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 16:41:35 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 16:41:35 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 16:41:47 INFO  - Check Element present: By.xpath: //h1[text()='TX']
+2017-09-25 16:41:47 INFO  - Click: By.xpath: //h1[text()='TX']
+2017-09-25 16:41:53 INFO  - Click: By.xpath: //a[@href='/organizations/16']
+2017-09-25 16:41:58 INFO  - Check Element present: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 16:41:58 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
+2017-09-25 16:41:58 INFO  - Login into Application
+2017-09-25 16:41:58 INFO  - Add a new project
+2017-09-25 16:41:58 INFO  - Click: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 16:42:03 INFO  - Check Element visible: By.xpath: //*[normalize-space(text())='New Project']
+2017-09-25 16:42:03 INFO  - Click: By.xpath: //*[normalize-space(text())='New Project']
+2017-09-25 16:42:08 INFO  - Check Element visible: By.xpath: //input[contains(@placeholder,'Enter project')]
+2017-09-25 16:42:09 INFO  - Input Text: TestFlowProject - By.xpath: //input[contains(@placeholder,'Enter project')]
+2017-09-25 16:42:09 INFO  - Click: By.xpath: //button[@role='button']
+2017-09-25 16:42:14 INFO  - Check Element visible: By.xpath: //button[@role='button']
+2017-09-25 16:42:14 INFO  - Click: By.xpath: //button[@role='button']
+2017-09-25 16:42:19 INFO  - Click: By.xpath: //*[normalize-space(text())='Create project']
+2017-09-25 16:42:24 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
+2017-09-25 16:42:27 INFO  - Add a new project
+2017-09-25 16:42:27 INFO  - create a task
+2017-09-25 16:42:27 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
+2017-09-25 16:42:27 INFO  - Click: By.xpath: //a[text()='Create your first task']
+2017-09-25 16:42:32 INFO  - Check Element visible: By.xpath: //*[@placeholder='New Task']
+2017-09-25 16:42:32 INFO  - create a task
+2017-09-25 16:42:32 INFO  - give a taskname
+2017-09-25 16:42:32 INFO  - Check Element present: By.xpath: //div[@class='quick-task-form-icon']
+2017-09-25 16:42:32 INFO  - Click: By.xpath: //div[@class='quick-task-form-icon']
+2017-09-25 16:42:37 INFO  - Input Text: QaTestTask - By.xpath: //*[@placeholder='New Task']
+2017-09-25 16:42:37 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Assign to someone']
+2017-09-25 16:42:38 INFO  - give a taskname
+2017-09-25 16:42:38 INFO  - assign task to someone
+2017-09-25 16:42:38 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Assign to someone']
+2017-09-25 16:42:38 INFO  - Click: By.xpath: //*[@data-helpout-title='Assign to someone']
+2017-09-25 16:42:43 INFO  - Input Text: suman - By.xpath: //span[text()='Assign to someone']/preceding-sibling::input
+2017-09-25 16:42:44 INFO  - assign task to someone
+2017-09-25 16:42:44 INFO  - assign due date
+2017-09-25 16:42:44 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Set due date']
+2017-09-25 16:42:44 INFO  - Click: By.xpath: //*[@data-helpout-title='Set due date']
+2017-09-25 16:42:50 INFO  - Input Text: 30-07-17 - By.xpath: //span[text()='Set due date']/preceding-sibling::input
+2017-09-25 16:42:50 INFO  - assign due date
+2017-09-25 16:42:50 INFO  - assign subscriber for task2
+2017-09-25 16:42:50 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Subscribe members']
+2017-09-25 16:42:50 INFO  - Click: By.xpath: //*[@data-helpout-title='Subscribe members']
+2017-09-25 16:42:55 INFO  - Input Text: vijay - By.xpath: //span[text()='Subscribe people']/preceding-sibling::input
+2017-09-25 16:42:55 INFO  - Click: By.xpath: //span[text()='Subscribe people']
+2017-09-25 16:43:56 INFO  - Screenshot image path: C:\Users\Lavanya\Desktop\flowapp-web\ExecutionReports\HtmlReport\FailedScreenshots\20170925164355_FLOW_TC_01.jpg
+2017-09-25 16:43:56 INFO  - assign subscriber for task2 - Click: By.xpath: //span[text()='Subscribe people']
+2017-09-25 16:43:56 INFO  - Expected condition failed: waiting for element to be clickable: By.xpath: //span[text()='Subscribe people'] (tried for 60 second(s) with 500 MILLISECONDS interval)
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'DSHYD-084', ip: '172.16.3.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\Lavanya\AppData\Local\Temp\scoped_dir2668_30649}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 4e31c96d473ae385ac1491b02c81a1c7
+2017-09-25 16:43:56 INFO  - Test has ended closing browser: Chrome
+2017-09-25 16:43:56 INFO  - Total Time taken in(seconds):150
+2017-09-25 16:43:56 INFO  - **********TEST FINISHED-> FLOW_TC_01-FAILED**********
+2017-09-25 16:43:56 INFO  - TestResults
+2017-09-25 16:43:57 INFO  - Project Page suite finished at Mon Sep 25 16:43:57 IST 2017
+2017-09-25 16:43:57 INFO  - Test process has ended
+2017-09-25 16:43:57 INFO  - History File created successfully
