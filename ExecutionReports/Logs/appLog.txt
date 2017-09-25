@@ -36088,227 +36088,394 @@ Session ID: 4a0bf6de43637ba337ebe409004c2aef
 2017-09-20 16:34:29 INFO  - Project Page suite finished at Wed Sep 20 16:34:29 IST 2017
 2017-09-20 16:34:29 INFO  - Test process has ended
 2017-09-20 16:34:29 INFO  - History File created successfully
-2017-09-25 16:41:24 INFO  - 
+2017-09-25 15:32:24 INFO  - 
 
 +============================================================================================================================+
-2017-09-25 16:41:24 INFO  - Project Page suite started at Mon Sep 25 16:41:24 IST 2017
-2017-09-25 16:41:24 INFO  - Suite Browser: Chrome
-2017-09-25 16:41:26 INFO  - +=============Database started=============+
-2017-09-25 16:41:26 INFO  - Database driver name: SQLiteJDBC
-2017-09-25 16:41:26 INFO  - Product name SQLite, Version 3.8.11
-2017-09-25 16:41:26 INFO  - +==========================================+
+2017-09-25 15:32:24 INFO  - Project Page suite started at Mon Sep 25 15:32:24 IST 2017
+2017-09-25 15:32:24 INFO  - Suite Browser: Chrome
+2017-09-25 15:32:25 INFO  - +=============Database started=============+
+2017-09-25 15:32:25 INFO  - Database driver name: SQLiteJDBC
+2017-09-25 15:32:25 INFO  - Product name SQLite, Version 3.8.11
+2017-09-25 15:32:25 INFO  - +==========================================+
 
-2017-09-25 16:41:26 INFO  - 
+2017-09-25 15:32:25 INFO  - 
 +----------------------------------------------------------------------------------------------------------------------------+
-2017-09-25 16:41:26 INFO  - Test Started: FLOW_TC_01
-2017-09-25 16:41:26 INFO  - Test description: Create a project and assign task and subscribe the task and check for the catchup funcationality
-2017-09-25 16:41:26 INFO  - Test is started with browser: Chrome
-2017-09-25 16:41:31 INFO  - Open Login Page
-2017-09-25 16:41:31 INFO  - Navigate to: https://app-qa.staircar.com
-2017-09-25 16:41:35 INFO  - Open Login Page
-2017-09-25 16:41:35 INFO  - Login into Application
-2017-09-25 16:41:35 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
-2017-09-25 16:41:35 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
-2017-09-25 16:41:35 INFO  - Click: By.name: session[password]
-2017-09-25 16:41:35 INFO  - Input Text: jagadeesh123 - By.name: session[password]
-2017-09-25 16:41:35 INFO  - Input Text: jagadeesh123 - By.name: session[password]
-2017-09-25 16:41:35 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
-2017-09-25 16:41:35 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
-2017-09-25 16:41:47 INFO  - Check Element present: By.xpath: //h1[text()='TX']
-2017-09-25 16:41:47 INFO  - Click: By.xpath: //h1[text()='TX']
-2017-09-25 16:41:53 INFO  - Click: By.xpath: //a[@href='/organizations/16']
-2017-09-25 16:41:58 INFO  - Check Element present: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
-2017-09-25 16:41:58 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
-2017-09-25 16:41:58 INFO  - Login into Application
-2017-09-25 16:41:58 INFO  - Add a new project
-2017-09-25 16:41:58 INFO  - Click: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
-2017-09-25 16:42:03 INFO  - Check Element visible: By.xpath: //*[normalize-space(text())='New Project']
-2017-09-25 16:42:03 INFO  - Click: By.xpath: //*[normalize-space(text())='New Project']
-2017-09-25 16:42:08 INFO  - Check Element visible: By.xpath: //input[contains(@placeholder,'Enter project')]
-2017-09-25 16:42:09 INFO  - Input Text: TestFlowProject - By.xpath: //input[contains(@placeholder,'Enter project')]
-2017-09-25 16:42:09 INFO  - Click: By.xpath: //button[@role='button']
-2017-09-25 16:42:14 INFO  - Check Element visible: By.xpath: //button[@role='button']
-2017-09-25 16:42:14 INFO  - Click: By.xpath: //button[@role='button']
-2017-09-25 16:42:19 INFO  - Click: By.xpath: //*[normalize-space(text())='Create project']
-2017-09-25 16:42:24 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
-2017-09-25 16:42:27 INFO  - Add a new project
-2017-09-25 16:42:27 INFO  - create a task
-2017-09-25 16:42:27 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
-2017-09-25 16:42:27 INFO  - Click: By.xpath: //a[text()='Create your first task']
-2017-09-25 16:42:32 INFO  - Check Element visible: By.xpath: //*[@placeholder='New Task']
-2017-09-25 16:42:32 INFO  - create a task
-2017-09-25 16:42:32 INFO  - give a taskname
-2017-09-25 16:42:32 INFO  - Check Element present: By.xpath: //div[@class='quick-task-form-icon']
-2017-09-25 16:42:32 INFO  - Click: By.xpath: //div[@class='quick-task-form-icon']
-2017-09-25 16:42:37 INFO  - Input Text: QaTestTask - By.xpath: //*[@placeholder='New Task']
-2017-09-25 16:42:37 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Assign to someone']
-2017-09-25 16:42:38 INFO  - give a taskname
-2017-09-25 16:42:38 INFO  - assign task to someone
-2017-09-25 16:42:38 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Assign to someone']
-2017-09-25 16:42:38 INFO  - Click: By.xpath: //*[@data-helpout-title='Assign to someone']
-2017-09-25 16:42:43 INFO  - Input Text: suman - By.xpath: //span[text()='Assign to someone']/preceding-sibling::input
-2017-09-25 16:42:44 INFO  - assign task to someone
-2017-09-25 16:42:44 INFO  - assign due date
-2017-09-25 16:42:44 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Set due date']
-2017-09-25 16:42:44 INFO  - Click: By.xpath: //*[@data-helpout-title='Set due date']
-2017-09-25 16:42:50 INFO  - Input Text: 30-07-17 - By.xpath: //span[text()='Set due date']/preceding-sibling::input
-2017-09-25 16:42:50 INFO  - assign due date
-2017-09-25 16:42:50 INFO  - assign subscriber for task2
-2017-09-25 16:42:50 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Subscribe members']
-2017-09-25 16:42:50 INFO  - Click: By.xpath: //*[@data-helpout-title='Subscribe members']
-2017-09-25 16:42:55 INFO  - Input Text: vijay - By.xpath: //span[text()='Subscribe people']/preceding-sibling::input
-2017-09-25 16:42:55 INFO  - Click: By.xpath: //span[text()='Subscribe people']
-2017-09-25 16:43:56 INFO  - Screenshot image path: C:\Users\Lavanya\Desktop\flowapp-web\ExecutionReports\HtmlReport\FailedScreenshots\20170925164355_FLOW_TC_01.jpg
-2017-09-25 16:43:56 INFO  - assign subscriber for task2 - Click: By.xpath: //span[text()='Subscribe people']
-2017-09-25 16:43:56 INFO  - Expected condition failed: waiting for element to be clickable: By.xpath: //span[text()='Subscribe people'] (tried for 60 second(s) with 500 MILLISECONDS interval)
+2017-09-25 15:32:25 INFO  - Test Started: FLOW_TC_01
+2017-09-25 15:32:25 INFO  - Test description: Create a project and assign task and subscribe the task and check for the catchup funcationality
+2017-09-25 15:32:25 INFO  - Test is started with browser: Chrome
+2017-09-25 15:32:30 INFO  - Open Login Page
+2017-09-25 15:32:30 INFO  - Navigate to: https://app-qa.staircar.com
+2017-09-25 15:32:35 INFO  - Open Login Page
+2017-09-25 15:32:35 INFO  - Login into Application
+2017-09-25 15:32:35 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 15:32:35 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 15:32:35 INFO  - Click: By.name: session[password]
+2017-09-25 15:32:35 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 15:32:35 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 15:32:35 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 15:32:35 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 15:32:47 INFO  - Check Element present: By.xpath: //h1[text()='TX']
+2017-09-25 15:32:47 INFO  - Click: By.xpath: //h1[text()='TX']
+2017-09-25 15:32:47 INFO  - Click: By.xpath: //a[@href='/organizations/16']
+2017-09-25 15:32:48 INFO  - Check Element present: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 15:32:48 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
+2017-09-25 15:32:48 INFO  - Login into Application
+2017-09-25 15:32:48 INFO  - Add a new project
+2017-09-25 15:32:48 INFO  - Click: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 15:32:48 INFO  - Check Element visible: By.xpath: //*[normalize-space(text())='New Project']
+2017-09-25 15:32:48 INFO  - Click: By.xpath: //*[normalize-space(text())='New Project']
+2017-09-25 15:32:48 INFO  - Check Element visible: By.xpath: //input[contains(@placeholder,'Enter project')]
+2017-09-25 15:32:48 INFO  - Input Text: TestFlowProject - By.xpath: //input[contains(@placeholder,'Enter project')]
+2017-09-25 15:32:49 INFO  - Click: By.xpath: //button[@role='button']
+2017-09-25 15:32:49 INFO  - Check Element visible: By.xpath: //button[@role='button']
+2017-09-25 15:32:49 INFO  - Click: By.xpath: //button[@role='button']
+2017-09-25 15:32:49 INFO  - Click: By.xpath: //*[normalize-space(text())='Create project']
+2017-09-25 15:32:49 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
+2017-09-25 15:32:51 INFO  - Add a new project
+2017-09-25 15:32:51 INFO  - create a task
+2017-09-25 15:32:51 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
+2017-09-25 15:32:51 INFO  - Click: By.xpath: //a[text()='Create your first task']
+2017-09-25 15:32:51 INFO  - Check Element visible: By.xpath: //*[@placeholder='New Task']
+2017-09-25 15:32:51 INFO  - create a task
+2017-09-25 15:32:51 INFO  - give a taskname
+2017-09-25 15:32:51 INFO  - Check Element present: By.xpath: //div[@class='quick-task-form-icon']
+2017-09-25 15:32:51 INFO  - Click: By.xpath: //div[@class='quick-task-form-icon']
+2017-09-25 15:32:51 INFO  - Input Text: QaTestTask - By.xpath: //*[@placeholder='New Task']
+2017-09-25 15:32:51 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Assign to someone']
+2017-09-25 15:32:51 INFO  - give a taskname
+2017-09-25 15:32:51 INFO  - assign task to someone
+2017-09-25 15:32:51 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Assign to someone']
+2017-09-25 15:32:51 INFO  - Click: By.xpath: //*[@data-helpout-title='Assign to someone']
+2017-09-25 15:32:52 INFO  - Input Text: suman - By.xpath: //span[text()='Assign to someone']/preceding-sibling::input
+2017-09-25 15:32:53 INFO  - assign task to someone
+2017-09-25 15:32:53 INFO  - assign due date
+2017-09-25 15:32:53 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Set due date']
+2017-09-25 15:32:53 INFO  - Click: By.xpath: //*[@data-helpout-title='Set due date']
+2017-09-25 15:32:53 INFO  - Input Text: 30-07-17 - By.xpath: //span[text()='Set due date']/preceding-sibling::input
+2017-09-25 15:32:53 INFO  - assign due date
+2017-09-25 15:32:53 INFO  - assign subscriber for task2
+2017-09-25 15:32:53 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Subscribe members']
+2017-09-25 15:32:53 INFO  - Click: By.xpath: //*[@data-helpout-title='Subscribe members']
+2017-09-25 15:32:53 INFO  - Input Text: vijay - By.xpath: //span[text()='Subscribe people']/preceding-sibling::input
+2017-09-25 15:32:53 INFO  - Click: By.xpath: //span[text()='Subscribe people']
+2017-09-25 15:32:55 INFO  - assign subscriber for task2
+2017-09-25 15:32:55 INFO  - save the task
+2017-09-25 15:32:55 INFO  - Check Element present: By.xpath: //button[text()='Save']
+2017-09-25 15:32:55 INFO  - Click: By.xpath: //button[text()='Save']
+2017-09-25 15:32:55 INFO  - save the task
+2017-09-25 15:32:55 INFO  - logout of the application
+2017-09-25 15:32:55 INFO  - Check Element present: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 15:32:55 INFO  - Click: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 15:32:55 INFO  - Check Element present: By.xpath: //a[text()='Logout']
+2017-09-25 15:32:55 INFO  - Click: By.xpath: //a[text()='Logout']
+2017-09-25 15:32:56 INFO  - logout of the application
+2017-09-25 15:32:56 INFO  - login with assignee
+2017-09-25 15:32:56 INFO  - Input Text: suman.ananthula@testingxperts.com - By.name: session[email]
+2017-09-25 15:32:56 INFO  - Input Text: suman.ananthula@testingxperts.com - By.name: session[email]
+2017-09-25 15:32:57 INFO  - Click: By.name: session[password]
+2017-09-25 15:32:57 INFO  - Input Text: suman123 - By.name: session[password]
+2017-09-25 15:32:57 INFO  - Input Text: suman123 - By.name: session[password]
+2017-09-25 15:32:57 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 15:32:57 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 15:33:01 INFO  - Check Element present: By.xpath: //h1[text()='TX']
+2017-09-25 15:33:01 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
+2017-09-25 15:33:11 INFO  - login with assignee
+2017-09-25 15:33:11 INFO  - Notification for assignee received
+2017-09-25 15:33:11 INFO  - Check Element present: By.xpath: //span[text()='Catch Up']
+2017-09-25 15:33:11 INFO  - Click: By.xpath: //span[text()='Catch Up']
+2017-09-25 15:33:11 INFO  - Check Element present: By.xpath: //a[text()='Catch Up']
+2017-09-25 15:33:11 INFO  - Click: By.xpath: //a[text()='Catch Up']
+2017-09-25 15:33:12 INFO  - Check Element present: By.xpath: //div[@data-content='Today']
+2017-09-25 15:33:12 INFO  - Notification for assignee received
+2017-09-25 15:33:12 INFO  - logout of the assignee account
+2017-09-25 15:33:12 INFO  - Check Element present: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 15:33:12 INFO  - Click: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 15:33:12 INFO  - Check Element present: By.xpath: //a[text()='Logout']
+2017-09-25 15:33:12 INFO  - Click: By.xpath: //a[text()='Logout']
+2017-09-25 15:33:14 INFO  - logout of the assignee account
+2017-09-25 15:33:14 INFO  - login with subscriber
+2017-09-25 15:33:16 INFO  - Input Text: vijay.javvadi@testingxperts.com - By.name: session[email]
+2017-09-25 15:33:16 INFO  - Input Text: vijay.javvadi@testingxperts.com - By.name: session[email]
+2017-09-25 15:33:17 INFO  - Click: By.name: session[password]
+2017-09-25 15:33:17 INFO  - Input Text: Javi!@2529 - By.name: session[password]
+2017-09-25 15:33:17 INFO  - Input Text: Javi!@2529 - By.name: session[password]
+2017-09-25 15:33:17 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 15:33:17 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 15:33:22 INFO  - Check Element present: By.xpath: //h1[text()='TX']
+2017-09-25 15:33:22 INFO  - Click: By.xpath: //h1[text()='TX']
+2017-09-25 15:33:22 INFO  - Click: By.xpath: //a[@href='/organizations/16']
+2017-09-25 15:33:23 INFO  - Check Element present: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 15:33:23 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
+2017-09-25 15:33:23 INFO  - login with subscriber
+2017-09-25 15:33:23 INFO  - Notification for subscriber received
+2017-09-25 15:33:23 INFO  - Check Element present: By.xpath: //span[text()='Catch Up']
+2017-09-25 15:33:23 INFO  - Click: By.xpath: //span[text()='Catch Up']
+2017-09-25 15:33:23 INFO  - Check Element present: By.xpath: //a[text()='Catch Up']
+2017-09-25 15:33:23 INFO  - Click: By.xpath: //a[text()='Catch Up']
+2017-09-25 15:33:24 INFO  - Check Element present: By.xpath: //div[@data-content='Today']
+2017-09-25 15:33:24 INFO  - Notification for subscriber received
+2017-09-25 15:33:24 INFO  - logout of the subscriber account
+2017-09-25 15:33:24 INFO  - Check Element present: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 15:33:24 INFO  - Click: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 15:33:24 INFO  - Check Element present: By.xpath: //a[text()='Logout']
+2017-09-25 15:33:24 INFO  - Click: By.xpath: //a[text()='Logout']
+2017-09-25 15:33:26 INFO  - logout of the subscriber account
+2017-09-25 15:33:26 INFO  - Test has ended closing browser: Chrome
+2017-09-25 15:33:26 INFO  - Total Time taken in(seconds):61
+2017-09-25 15:33:26 INFO  - TestResults
+2017-09-25 15:33:27 INFO  - **********TEST FINISHED-> FLOW_TC_01-PASS**********
+2017-09-25 15:33:27 INFO  - Project Page suite finished at Mon Sep 25 15:33:27 IST 2017
+2017-09-25 15:33:27 INFO  - Test process has ended
+2017-09-25 15:33:27 INFO  - History File created successfully
+2017-09-25 16:21:12 INFO  - 
+
++============================================================================================================================+
+2017-09-25 16:21:12 INFO  - Project Page suite started at Mon Sep 25 16:21:12 IST 2017
+2017-09-25 16:21:12 INFO  - Suite Browser: Chrome
+2017-09-25 16:21:13 INFO  - +=============Database started=============+
+2017-09-25 16:21:13 INFO  - Database driver name: SQLiteJDBC
+2017-09-25 16:21:13 INFO  - Product name SQLite, Version 3.8.11
+2017-09-25 16:21:13 INFO  - +==========================================+
+
+2017-09-25 16:21:13 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-09-25 16:21:13 INFO  - Test Started: FLOW_TC_01
+2017-09-25 16:21:13 INFO  - Test description: Create a project and assign task and subscribe the task and check for the catchup funcationality
+2017-09-25 16:21:13 INFO  - Test is started with browser: Chrome
+2017-09-25 16:21:17 INFO  - Open Login Page
+2017-09-25 16:21:17 INFO  - Navigate to: https://app-qa.staircar.com
+2017-09-25 16:21:21 INFO  - Open Login Page
+2017-09-25 16:21:21 INFO  - Login into Application
+2017-09-25 16:21:21 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 16:21:22 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 16:21:22 INFO  - Click: By.name: session[password]
+2017-09-25 16:21:22 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 16:21:22 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 16:21:22 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 16:21:22 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 16:21:35 INFO  - Check Element present: By.xpath: //h1[text()='TX']
+2017-09-25 16:21:35 INFO  - Click: By.xpath: //h1[text()='TX']
+2017-09-25 16:21:35 INFO  - Click: By.xpath: //a[@href='/organizations/16']
+2017-09-25 16:21:35 INFO  - Check Element present: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 16:21:35 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
+2017-09-25 16:21:35 INFO  - Login into Application
+2017-09-25 16:21:35 INFO  - Add a new project
+2017-09-25 16:21:35 INFO  - Click: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 16:21:35 INFO  - Check Element visible: By.xpath: //*[normalize-space(text())='New Project']
+2017-09-25 16:21:35 INFO  - Click: By.xpath: //*[normalize-space(text())='New Project']
+2017-09-25 16:21:36 INFO  - Check Element visible: By.xpath: //input[contains(@placeholder,'Enter project')]
+2017-09-25 16:21:36 INFO  - Input Text: TestFlowProject - By.xpath: //input[contains(@placeholder,'Enter project')]
+2017-09-25 16:21:36 INFO  - Click: By.xpath: //button[@role='button']
+2017-09-25 16:21:36 INFO  - Check Element visible: By.xpath: //button[@role='button']
+2017-09-25 16:21:36 INFO  - Click: By.xpath: //button[@role='button']
+2017-09-25 16:21:36 INFO  - Click: By.xpath: //*[normalize-space(text())='Create project']
+2017-09-25 16:21:36 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
+2017-09-25 16:21:39 INFO  - Add a new project
+2017-09-25 16:21:39 INFO  - create a task
+2017-09-25 16:21:39 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
+2017-09-25 16:21:39 INFO  - Click: By.xpath: //a[text()='Create your first task']
+2017-09-25 16:21:39 INFO  - Check Element visible: By.xpath: //*[@placeholder='New Task']
+2017-09-25 16:21:39 INFO  - create a task
+2017-09-25 16:21:39 INFO  - give a taskname
+2017-09-25 16:21:39 INFO  - Check Element present: By.xpath: //div[@class='quick-task-form-icon']
+2017-09-25 16:21:39 INFO  - Click: By.xpath: //div[@class='quick-task-form-icon']
+2017-09-25 16:21:39 INFO  - Input Text: QaTestTask - By.xpath: //*[@placeholder='New Task']
+2017-09-25 16:21:39 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Assign to someone']
+2017-09-25 16:21:39 INFO  - give a taskname
+2017-09-25 16:21:39 INFO  - assign task to someone
+2017-09-25 16:21:39 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Assign to someone']
+2017-09-25 16:21:39 INFO  - Click: By.xpath: //*[@data-helpout-title='Assign to someone']
+2017-09-25 16:21:39 INFO  - Input Text: suman - By.xpath: //span[text()='Assign to someone']/preceding-sibling::input
+2017-09-25 16:21:40 INFO  - assign task to someone
+2017-09-25 16:21:40 INFO  - assign due date
+2017-09-25 16:21:40 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Set due date']
+2017-09-25 16:21:40 INFO  - Click: By.xpath: //*[@data-helpout-title='Set due date']
+2017-09-25 16:21:41 INFO  - Input Text: 30-07-17 - By.xpath: //span[text()='Set due date']/preceding-sibling::input
+2017-09-25 16:21:41 INFO  - assign due date
+2017-09-25 16:21:41 INFO  - assign subscriber for task2
+2017-09-25 16:21:41 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Subscribe members']
+2017-09-25 16:21:41 INFO  - Click: By.xpath: //*[@data-helpout-title='Subscribe members']
+2017-09-25 16:21:41 INFO  - Input Text: vijay - By.xpath: //span[text()='Subscribe people']/preceding-sibling::input
+2017-09-25 16:21:41 INFO  - Click: By.xpath: //span[text()='Subscribe people']
+2017-09-25 16:21:42 INFO  - assign subscriber for task2
+2017-09-25 16:21:42 INFO  - save the task
+2017-09-25 16:21:42 INFO  - Check Element present: By.xpath: //button[text()='Save']
+2017-09-25 16:21:42 INFO  - Click: By.xpath: //button[text()='Save']
+2017-09-25 16:21:42 INFO  - save the task
+2017-09-25 16:21:42 INFO  - logout of the application
+2017-09-25 16:21:42 INFO  - Check Element present: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 16:21:42 INFO  - Click: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 16:21:42 INFO  - Check Element present: By.xpath: //a[text()='Logout']
+2017-09-25 16:21:42 INFO  - Click: By.xpath: //a[text()='Logout']
+2017-09-25 16:21:44 INFO  - logout of the application
+2017-09-25 16:21:44 INFO  - login with assignee
+2017-09-25 16:21:44 INFO  - Input Text: suman.ananthula@testingxperts.com - By.name: session[email]
+2017-09-25 16:21:44 INFO  - Input Text: suman.ananthula@testingxperts.com - By.name: session[email]
+2017-09-25 16:21:44 INFO  - Click: By.name: session[password]
+2017-09-25 16:21:44 INFO  - Input Text: suman123 - By.name: session[password]
+2017-09-25 16:21:44 INFO  - Input Text: suman123 - By.name: session[password]
+2017-09-25 16:21:44 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 16:21:45 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 16:21:48 INFO  - Check Element present: By.xpath: //h1[text()='TX']
+2017-09-25 16:21:48 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
+2017-09-25 16:21:58 INFO  - login with assignee
+2017-09-25 16:21:58 INFO  - Notification for assignee received
+2017-09-25 16:21:58 INFO  - Check Element present: By.xpath: //span[text()='Catch Up']
+2017-09-25 16:21:58 INFO  - Click: By.xpath: //span[text()='Catch Up']
+2017-09-25 16:21:58 INFO  - Check Element present: By.xpath: //a[text()='Catch Up']
+2017-09-25 16:21:58 INFO  - Click: By.xpath: //a[text()='Catch Up']
+2017-09-25 16:21:59 INFO  - Check Element present: By.xpath: //div[@data-content='Today']
+2017-09-25 16:21:59 INFO  - Notification for assignee received
+2017-09-25 16:21:59 INFO  - logout of the assignee account
+2017-09-25 16:21:59 INFO  - Check Element present: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 16:21:59 INFO  - Click: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 16:22:00 INFO  - Check Element present: By.xpath: //a[text()='Logout']
+2017-09-25 16:22:00 INFO  - Click: By.xpath: //a[text()='Logout']
+2017-09-25 16:22:01 INFO  - logout of the assignee account
+2017-09-25 16:22:01 INFO  - login with subscriber
+2017-09-25 16:22:02 INFO  - Input Text: vijay.javvadi@testingxperts.com - By.name: session[email]
+2017-09-25 16:22:02 INFO  - Input Text: vijay.javvadi@testingxperts.com - By.name: session[email]
+2017-09-25 16:22:03 INFO  - Click: By.name: session[password]
+2017-09-25 16:22:03 INFO  - Input Text: Javi!@2529 - By.name: session[password]
+2017-09-25 16:22:03 INFO  - Input Text: Javi!@2529 - By.name: session[password]
+2017-09-25 16:22:03 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 16:22:03 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 16:22:07 INFO  - Check Element present: By.xpath: //h1[text()='TX']
+2017-09-25 16:22:07 INFO  - Click: By.xpath: //h1[text()='TX']
+2017-09-25 16:22:07 INFO  - Click: By.xpath: //a[@href='/organizations/16']
+2017-09-25 16:22:08 INFO  - Check Element present: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 16:22:08 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
+2017-09-25 16:22:08 INFO  - login with subscriber
+2017-09-25 16:22:08 INFO  - Notification for subscriber received
+2017-09-25 16:22:08 INFO  - Check Element present: By.xpath: //span[text()='Catch Up']
+2017-09-25 16:22:08 INFO  - Click: By.xpath: //span[text()='Catch Up']
+2017-09-25 16:22:08 INFO  - Check Element present: By.xpath: //a[text()='Catch Up']
+2017-09-25 16:22:08 INFO  - Click: By.xpath: //a[text()='Catch Up']
+2017-09-25 16:22:09 INFO  - Check Element present: By.xpath: //div[@data-content='Today']
+2017-09-25 16:22:09 INFO  - Notification for subscriber received
+2017-09-25 16:22:09 INFO  - logout of the subscriber account
+2017-09-25 16:22:09 INFO  - Check Element present: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 16:22:09 INFO  - Click: By.xpath: .//h1[@class='app-header-organization-name']
+2017-09-25 16:22:09 INFO  - Check Element present: By.xpath: //a[text()='Logout']
+2017-09-25 16:22:09 INFO  - Click: By.xpath: //a[text()='Logout']
+2017-09-25 16:22:11 INFO  - logout of the subscriber account
+2017-09-25 16:22:11 INFO  - Test has ended closing browser: Chrome
+2017-09-25 16:22:11 INFO  - Total Time taken in(seconds):58
+2017-09-25 16:22:11 INFO  - TestResults
+2017-09-25 16:22:12 INFO  - **********TEST FINISHED-> FLOW_TC_01-PASS**********
+2017-09-25 16:22:12 INFO  - Project Page suite finished at Mon Sep 25 16:22:12 IST 2017
+2017-09-25 16:22:12 INFO  - Test process has ended
+2017-09-25 16:22:12 INFO  - History File created successfully
+2017-09-25 17:24:36 INFO  - 
+
++============================================================================================================================+
+2017-09-25 17:24:36 INFO  - Project Page suite started at Mon Sep 25 17:24:36 IST 2017
+2017-09-25 17:24:36 INFO  - Suite Browser: Chrome
+2017-09-25 17:24:37 INFO  - +=============Database started=============+
+2017-09-25 17:24:37 INFO  - Database driver name: SQLiteJDBC
+2017-09-25 17:24:37 INFO  - Product name SQLite, Version 3.8.11
+2017-09-25 17:24:37 INFO  - +==========================================+
+
+2017-09-25 17:24:37 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-09-25 17:24:37 INFO  - Test Started: FLOW_TC_01
+2017-09-25 17:24:37 INFO  - Test description: Create a project and assign task and subscribe the task and check for the catchup funcationality
+2017-09-25 17:24:37 INFO  - Test is started with browser: Chrome
+2017-09-25 17:24:41 INFO  - Open Login Page
+2017-09-25 17:24:41 INFO  - Navigate to: https://app-qa.staircar.com
+2017-09-25 17:24:46 INFO  - Open Login Page
+2017-09-25 17:24:46 INFO  - Login into Application
+2017-09-25 17:24:46 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 17:24:46 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 17:24:46 INFO  - Click: By.name: session[password]
+2017-09-25 17:24:46 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 17:24:46 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 17:24:46 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 17:24:46 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 17:25:44 INFO  - 
+
++============================================================================================================================+
+2017-09-25 17:25:44 INFO  - Project Page suite started at Mon Sep 25 17:25:44 IST 2017
+2017-09-25 17:25:44 INFO  - Suite Browser: Chrome
+2017-09-25 17:25:45 INFO  - +=============Database started=============+
+2017-09-25 17:25:45 INFO  - Database driver name: SQLiteJDBC
+2017-09-25 17:25:45 INFO  - Product name SQLite, Version 3.8.11
+2017-09-25 17:25:45 INFO  - +==========================================+
+
+2017-09-25 17:25:45 INFO  - 
++----------------------------------------------------------------------------------------------------------------------------+
+2017-09-25 17:25:45 INFO  - Test Started: FLOW_TC_01
+2017-09-25 17:25:45 INFO  - Test description: Create a project and assign task and subscribe the task and check for the catchup funcationality
+2017-09-25 17:25:45 INFO  - Test is started with browser: Chrome
+2017-09-25 17:25:50 INFO  - Open Login Page
+2017-09-25 17:25:50 INFO  - Navigate to: https://app-qa.staircar.com
+2017-09-25 17:25:50 INFO  - Screenshot image path: C:\Framework\ExecutionReports\HtmlReport\FailedScreenshots\20170925172549_FLOW_TC_01.jpg
+2017-09-25 17:25:50 INFO  - Login into Application - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 17:25:50 INFO  - Expected condition failed: waiting for visibility of element located by By.xpath: //span[text()='Catch Up'] (tried for 60 second(s) with 500 MILLISECONDS interval)
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
 System info: host: 'DSHYD-084', ip: '172.16.3.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\Lavanya\AppData\Local\Temp\scoped_dir2668_30649}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 4e31c96d473ae385ac1491b02c81a1c7
-2017-09-25 16:43:56 INFO  - Test has ended closing browser: Chrome
-2017-09-25 16:43:56 INFO  - Total Time taken in(seconds):150
-2017-09-25 16:43:56 INFO  - **********TEST FINISHED-> FLOW_TC_01-FAILED**********
-2017-09-25 16:43:56 INFO  - TestResults
-2017-09-25 16:43:57 INFO  - Project Page suite finished at Mon Sep 25 16:43:57 IST 2017
-2017-09-25 16:43:57 INFO  - Test process has ended
-2017-09-25 16:43:57 INFO  - History File created successfully
-2017-09-25 16:57:31 INFO  - 
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\Lavanya\AppData\Local\Temp\scoped_dir4040_9507}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 0201a5c406b4cd82c9b3ba23e5d87201
+2017-09-25 17:25:50 INFO  - Test has ended closing browser: Chrome
+2017-09-25 17:25:50 INFO  - Total Time taken in(seconds):73
+2017-09-25 17:25:50 INFO  - **********TEST FINISHED-> FLOW_TC_01-FAILED**********
+2017-09-25 17:25:50 INFO  - TestResults
+2017-09-25 17:25:51 INFO  - Project Page suite finished at Mon Sep 25 17:25:51 IST 2017
+2017-09-25 17:25:51 INFO  - Test process has ended
+2017-09-25 17:25:51 INFO  - History File created successfully
+2017-09-25 17:25:55 INFO  - Open Login Page
+2017-09-25 17:25:55 INFO  - Login into Application
+2017-09-25 17:25:55 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 17:25:55 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 17:25:55 INFO  - Click: By.name: session[password]
+2017-09-25 17:25:55 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 17:25:55 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 17:25:55 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 17:25:55 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 17:25:59 INFO  - Test has ended closing browser: Chrome
+2017-09-25 17:25:59 INFO  - Total Time taken in(seconds):13
+2017-09-25 17:25:59 INFO  - **********TEST FINISHED-> FLOW_TC_01-FAILED**********
+2017-09-25 17:25:59 INFO  - TestResults
+2017-09-25 17:26:00 INFO  - Project Page suite finished at Mon Sep 25 17:26:00 IST 2017
+2017-09-25 17:26:00 INFO  - Test process has ended
+2017-09-25 17:26:00 INFO  - History File created successfully
+2017-09-25 18:30:33 INFO  - 
 
 +============================================================================================================================+
-2017-09-25 16:57:31 INFO  - Project Page suite started at Mon Sep 25 16:57:31 IST 2017
-2017-09-25 16:57:31 INFO  - Suite Browser: Chrome
-2017-09-25 16:57:32 INFO  - +=============Database started=============+
-2017-09-25 16:57:32 INFO  - Database driver name: SQLiteJDBC
-2017-09-25 16:57:32 INFO  - Product name SQLite, Version 3.8.11
-2017-09-25 16:57:32 INFO  - +==========================================+
+2017-09-25 18:30:33 INFO  - Project Page suite started at Mon Sep 25 18:30:33 IST 2017
+2017-09-25 18:30:33 INFO  - Suite Browser: Chrome
+2017-09-25 18:30:34 INFO  - +=============Database started=============+
+2017-09-25 18:30:34 INFO  - Database driver name: SQLiteJDBC
+2017-09-25 18:30:34 INFO  - Product name SQLite, Version 3.8.11
+2017-09-25 18:30:34 INFO  - +==========================================+
 
-2017-09-25 16:57:32 INFO  - 
+2017-09-25 18:30:34 INFO  - 
 +----------------------------------------------------------------------------------------------------------------------------+
-2017-09-25 16:57:32 INFO  - Test Started: FLOW_TC_01
-2017-09-25 16:57:32 INFO  - Test description: Create a project and assign task and subscribe the task and check for the catchup funcationality
-2017-09-25 16:57:32 INFO  - Test is started with browser: Chrome
-2017-09-25 16:57:37 INFO  - Open Login Page
-2017-09-25 16:57:37 INFO  - Navigate to: https://app-qa.staircar.com
-2017-09-25 16:57:42 INFO  - Open Login Page
-2017-09-25 16:57:42 INFO  - Login into Application
-2017-09-25 16:57:42 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
-2017-09-25 16:57:42 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
-2017-09-25 16:57:42 INFO  - Click: By.name: session[password]
-2017-09-25 16:57:42 INFO  - Input Text: jagadeesh123 - By.name: session[password]
-2017-09-25 16:57:42 INFO  - Input Text: jagadeesh123 - By.name: session[password]
-2017-09-25 16:57:42 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
-2017-09-25 16:57:42 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
-2017-09-25 16:57:53 INFO  - Check Element present: By.xpath: //h1[text()='TX']
-2017-09-25 16:57:53 INFO  - Click: By.xpath: //h1[text()='TX']
-2017-09-25 16:57:53 INFO  - Click: By.xpath: //a[@href='/organizations/16']
-2017-09-25 16:57:54 INFO  - Check Element present: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
-2017-09-25 16:57:54 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
-2017-09-25 16:57:54 INFO  - Login into Application
-2017-09-25 16:57:54 INFO  - Add a new project
-2017-09-25 16:57:54 INFO  - Click: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
-2017-09-25 16:57:54 INFO  - Check Element visible: By.xpath: //*[normalize-space(text())='New Project']
-2017-09-25 16:57:54 INFO  - Click: By.xpath: //*[normalize-space(text())='New Project']
-2017-09-25 16:57:54 INFO  - Check Element visible: By.xpath: //input[contains(@placeholder,'Enter project')]
-2017-09-25 16:57:55 INFO  - Input Text: TestFlowProject - By.xpath: //input[contains(@placeholder,'Enter project')]
-2017-09-25 16:57:55 INFO  - Click: By.xpath: //button[@role='button']
-2017-09-25 16:57:55 INFO  - Check Element visible: By.xpath: //button[@role='button']
-2017-09-25 16:57:55 INFO  - Click: By.xpath: //button[@role='button']
-2017-09-25 16:57:55 INFO  - Click: By.xpath: //*[normalize-space(text())='Create project']
-2017-09-25 16:57:55 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
-2017-09-25 16:57:57 INFO  - Add a new project
-2017-09-25 16:57:57 INFO  - create a task
-2017-09-25 16:57:57 INFO  - Check Element visible: By.xpath: //a[text()='Create your first task']
-2017-09-25 16:57:57 INFO  - Click: By.xpath: //a[text()='Create your first task']
-2017-09-25 16:57:57 INFO  - Check Element visible: By.xpath: //*[@placeholder='New Task']
-2017-09-25 16:57:57 INFO  - create a task
-2017-09-25 16:57:57 INFO  - give a taskname
-2017-09-25 16:57:57 INFO  - Check Element present: By.xpath: //div[@class='quick-task-form-icon']
-2017-09-25 16:57:57 INFO  - Click: By.xpath: //div[@class='quick-task-form-icon']
-2017-09-25 16:57:57 INFO  - Input Text: QaTestTask - By.xpath: //*[@placeholder='New Task']
-2017-09-25 16:57:57 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Assign to someone']
-2017-09-25 16:57:57 INFO  - give a taskname
-2017-09-25 16:57:57 INFO  - assign task to someone
-2017-09-25 16:57:57 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Assign to someone']
-2017-09-25 16:57:57 INFO  - Click: By.xpath: //*[@data-helpout-title='Assign to someone']
-2017-09-25 16:57:58 INFO  - Input Text: suman - By.xpath: //span[text()='Assign to someone']/preceding-sibling::input
-2017-09-25 16:57:59 INFO  - assign task to someone
-2017-09-25 16:57:59 INFO  - assign due date
-2017-09-25 16:57:59 INFO  - Check Element visible: By.xpath: //*[@data-helpout-title='Set due date']
-2017-09-25 16:57:59 INFO  - Click: By.xpath: //*[@data-helpout-title='Set due date']
-2017-09-25 16:57:59 INFO  - Input Text: 30-07-17 - By.xpath: //span[text()='Set due date']/preceding-sibling::input
-2017-09-25 16:57:59 INFO  - assign due date
-2017-09-25 16:57:59 INFO  - assign subscriber for task2
-2017-09-25 16:57:59 INFO  - Check Element present: By.xpath: //*[@data-helpout-title='Subscribe members']
-2017-09-25 16:57:59 INFO  - Click: By.xpath: //*[@data-helpout-title='Subscribe members']
-2017-09-25 16:57:59 INFO  - Input Text: vijay - By.xpath: //span[text()='Subscribe people']/preceding-sibling::input
-2017-09-25 16:57:59 INFO  - Click: By.xpath: //span[text()='Subscribe people']
-2017-09-25 16:58:00 INFO  - assign subscriber for task2
-2017-09-25 16:58:00 INFO  - save the task
-2017-09-25 16:58:00 INFO  - Check Element present: By.xpath: //button[text()='Save']
-2017-09-25 16:58:01 INFO  - Click: By.xpath: //button[text()='Save']
-2017-09-25 16:58:01 INFO  - save the task
-2017-09-25 16:58:01 INFO  - logout of the application
-2017-09-25 16:58:01 INFO  - Check Element present: By.xpath: .//h1[@class='app-header-organization-name']
-2017-09-25 16:58:01 INFO  - Click: By.xpath: .//h1[@class='app-header-organization-name']
-2017-09-25 16:58:01 INFO  - Check Element present: By.xpath: //a[text()='Logout']
-2017-09-25 16:58:01 INFO  - Click: By.xpath: //a[text()='Logout']
-2017-09-25 16:58:02 INFO  - logout of the application
-2017-09-25 16:58:02 INFO  - login with assignee
-2017-09-25 16:58:02 INFO  - Input Text: suman.ananthula@testingxperts.com - By.name: session[email]
-2017-09-25 16:58:02 INFO  - Input Text: suman.ananthula@testingxperts.com - By.name: session[email]
-2017-09-25 16:58:02 INFO  - Click: By.name: session[password]
-2017-09-25 16:58:03 INFO  - Input Text: suman123 - By.name: session[password]
-2017-09-25 16:58:03 INFO  - Input Text: suman123 - By.name: session[password]
-2017-09-25 16:58:03 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
-2017-09-25 16:58:03 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
-2017-09-25 16:58:06 INFO  - Check Element present: By.xpath: //h1[text()='TX']
-2017-09-25 16:58:06 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
-2017-09-25 16:58:16 INFO  - login with assignee
-2017-09-25 16:58:16 INFO  - Notification for assignee received
-2017-09-25 16:58:16 INFO  - Check Element present: By.xpath: //span[text()='Catch Up']
-2017-09-25 16:58:16 INFO  - Click: By.xpath: //span[text()='Catch Up']
-2017-09-25 16:58:21 INFO  - Check Element present: By.xpath: //a[text()='Catch Up']
-2017-09-25 16:58:21 INFO  - Click: By.xpath: //a[text()='Catch Up']
-2017-09-25 16:58:28 INFO  - Check Element present: By.xpath: //div[@data-content='Today']
-2017-09-25 16:58:28 INFO  - Notification for assignee received
-2017-09-25 16:58:28 INFO  - logout of the assignee account
-2017-09-25 16:58:28 INFO  - Check Element present: By.xpath: .//h1[@class='app-header-organization-name']
-2017-09-25 16:58:28 INFO  - Click: By.xpath: .//h1[@class='app-header-organization-name']
-2017-09-25 16:58:33 INFO  - Check Element present: By.xpath: //a[text()='Logout']
-2017-09-25 16:58:33 INFO  - Click: By.xpath: //a[text()='Logout']
-2017-09-25 16:58:40 INFO  - logout of the assignee account
-2017-09-25 16:58:40 INFO  - login with subscriber
-2017-09-25 16:58:40 INFO  - Input Text: vijay.javvadi@testingxperts.com - By.name: session[email]
-2017-09-25 16:58:40 INFO  - Input Text: vijay.javvadi@testingxperts.com - By.name: session[email]
-2017-09-25 16:58:41 INFO  - Click: By.name: session[password]
-2017-09-25 16:58:46 INFO  - Input Text: Javi!@2529 - By.name: session[password]
-2017-09-25 16:58:46 INFO  - Input Text: Javi!@2529 - By.name: session[password]
-2017-09-25 16:58:46 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
-2017-09-25 16:58:51 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
-2017-09-25 16:58:59 INFO  - Check Element present: By.xpath: //h1[text()='TX']
-2017-09-25 16:58:59 INFO  - Click: By.xpath: //h1[text()='TX']
-2017-09-25 16:59:04 INFO  - Click: By.xpath: //a[@href='/organizations/16']
-2017-09-25 16:59:10 INFO  - Check Element present: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
-2017-09-25 16:59:10 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
-2017-09-25 16:59:10 INFO  - login with subscriber
-2017-09-25 16:59:10 INFO  - Notification for subscriber received
-2017-09-25 16:59:10 INFO  - Check Element present: By.xpath: //span[text()='Catch Up']
-2017-09-25 16:59:10 INFO  - Click: By.xpath: //span[text()='Catch Up']
-2017-09-25 16:59:15 INFO  - Check Element present: By.xpath: //a[text()='Catch Up']
-2017-09-25 16:59:15 INFO  - Click: By.xpath: //a[text()='Catch Up']
-2017-09-25 16:59:22 INFO  - Check Element present: By.xpath: //div[@data-content='Today']
-2017-09-25 16:59:22 INFO  - Notification for subscriber received
-2017-09-25 16:59:22 INFO  - logout of the subscriber account
-2017-09-25 16:59:22 INFO  - Check Element present: By.xpath: .//h1[@class='app-header-organization-name']
-2017-09-25 16:59:22 INFO  - Click: By.xpath: .//h1[@class='app-header-organization-name']
-2017-09-25 16:59:27 INFO  - Check Element present: By.xpath: //a[text()='Logout']
-2017-09-25 16:59:27 INFO  - Click: By.xpath: //a[text()='Logout']
-2017-09-25 16:59:35 INFO  - logout of the subscriber account
-2017-09-25 16:59:35 INFO  - Test has ended closing browser: Chrome
-2017-09-25 16:59:35 INFO  - Total Time taken in(seconds):122
-2017-09-25 16:59:35 INFO  - TestResults
-2017-09-25 16:59:35 INFO  - **********TEST FINISHED-> FLOW_TC_01-PASS**********
-2017-09-25 16:59:35 INFO  - Project Page suite finished at Mon Sep 25 16:59:35 IST 2017
-2017-09-25 16:59:35 INFO  - Test process has ended
-2017-09-25 16:59:35 INFO  - History File created successfully
+2017-09-25 18:30:34 INFO  - Test Started: FLOW_TC_01
+2017-09-25 18:30:34 INFO  - Test description: Create a project and assign task and subscribe the task and check for the catchup funcationality
+2017-09-25 18:30:34 INFO  - Test is started with browser: Chrome
+2017-09-25 18:30:39 INFO  - Open Login Page
+2017-09-25 18:30:39 INFO  - Navigate to: https://app-qa.staircar.com
+2017-09-25 18:30:42 INFO  - Open Login Page
+2017-09-25 18:30:42 INFO  - Login into Application
+2017-09-25 18:30:43 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 18:30:43 INFO  - Input Text: jagadeesh.gedela@testingxperts.com - By.name: session[email]
+2017-09-25 18:30:43 INFO  - Click: By.name: session[password]
+2017-09-25 18:30:48 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 18:30:48 INFO  - Input Text: jagadeesh123 - By.name: session[password]
+2017-09-25 18:30:48 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 18:30:53 INFO  - Click: By.xpath: //div[@class='form-submit']/a/span[1]
+2017-09-25 18:31:13 INFO  - Check Element present: By.xpath: //h1[text()='TX']
+2017-09-25 18:31:13 INFO  - Click: By.xpath: //h1[text()='TX']
+2017-09-25 18:31:18 INFO  - Click: By.xpath: //a[@href='/organizations/16']
+2017-09-25 18:31:24 INFO  - Check Element present: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 18:31:24 INFO  - Check Element visible: By.xpath: //span[text()='Catch Up']
+2017-09-25 18:31:24 INFO  - Login into Application
+2017-09-25 18:31:24 INFO  - Add a new project
+2017-09-25 18:31:24 INFO  - Click: By.xpath: //*[normalize-space(text())='Projects']//following-sibling::a
+2017-09-25 18:31:29 INFO  - Check Element visible: By.xpath: //*[normalize-space(text())='New Project']
+2017-09-25 18:31:30 INFO  - Click: By.xpath: //*[normalize-space(text())='New Project']
+2017-09-25 18:31:35 INFO  - Check Element visible: By.xpath: //input[contains(@placeholder,'Enter project')]
+2017-09-25 18:31:35 INFO  - Input Text: TestFlowProject - By.xpath: //input[contains(@placeholder,'Enter project')]
+2017-09-25 18:31:35 INFO  - Click: By.xpath: //button[@role='button']

@@ -1,30 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Project Page" duration-ms="123353" started-at="2017-09-25T11:27:32Z" finished-at="2017-09-25T11:29:35Z">
+  <suite name="FLOW Suite" duration-ms="16250" started-at="2017-09-25T11:55:44Z" finished-at="2017-09-25T11:56:00Z">
     <groups>
     </groups>
-    <test name="Project Page-Tests" duration-ms="123353" started-at="2017-09-25T11:27:32Z" finished-at="2017-09-25T11:29:35Z">
-      <class name="testingxperts.web.tests.FLOW_TC_01">
-        <test-method status="PASS" signature="test(java.util.HashMap)[pri:0, instance:testingxperts.web.tests.FLOW_TC_01@55b53d44]" name="test" duration-ms="122543" started-at="2017-09-25T16:57:32Z" description="Login to the application and create projects and tasks" data-provider="getExcelTestData" finished-at="2017-09-25T16:59:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{subscriber=vijay, subscriberUname=vijay.javvadi@testingxperts.com, subscriberPwd=Javi!@2529, ProjectName=TestFlowProject, TaskName=QaTestTask, assigneeUname=suman.ananthula@testingxperts.com, assigneePwd=suman123, assignee=suman, DueDate=30-Jun-2017}]]>
-              </value>
-            </param>
-          </params>
+    <test name="AllScripts" duration-ms="16250" started-at="2017-09-25T11:55:44Z" finished-at="2017-09-25T11:56:00Z">
+      <class name="suite.runner.CustomSuiteRunner">
+        <test-method status="PASS" signature="suiteRunner()[pri:0, instance:suite.runner.CustomSuiteRunner@7e0b0338]" name="suiteRunner" duration-ms="16236" started-at="2017-09-25T17:25:44Z" finished-at="2017-09-25T17:26:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- testingxperts.web.tests.FLOW_TC_01 -->
-    </test> <!-- Project Page-Tests -->
-  </suite> <!-- Project Page -->
-  <suite name="Task Page" duration-ms="0" started-at="2017-09-25T11:29:35Z" finished-at="2017-09-25T11:29:35Z">
-    <groups>
-    </groups>
-    <test name="Task Page-Tests" duration-ms="0" started-at="2017-09-25T11:29:35Z" finished-at="2017-09-25T11:29:35Z">
-    </test> <!-- Task Page-Tests -->
-  </suite> <!-- Task Page -->
+        </test-method> <!-- suiteRunner -->
+      </class> <!-- suite.runner.CustomSuiteRunner -->
+    </test> <!-- AllScripts -->
+  </suite> <!-- FLOW Suite -->
 </testng-results>
