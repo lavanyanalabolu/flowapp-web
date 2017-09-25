@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Project Page]">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="Project Page-Tests(failed)">
+    <classes>
+      <class name="testingxperts.web.tests.FLOW_TC_01">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testingxperts.web.tests.FLOW_TC_01 -->
+    </classes>
+  </test> <!-- Project Page-Tests(failed) -->
+</suite> <!-- Failed suite [Project Page] -->
