@@ -156,6 +156,7 @@ public class WebAppPages extends KeywordUtil
    {
 	   if(isWebElementPresent(btn_save));
 	   click(btn_save);
+        Thread.sleep(2000);
    }
    public static boolean LogoutOfTheApplication() throws InterruptedException
    {boolean flag=true;
@@ -163,7 +164,7 @@ public class WebAppPages extends KeywordUtil
 	   click(tx_logout);
 	   if(isWebElementPresent(logout))
 		click(logout);
-	   Thread.sleep(1000);
+	   Thread.sleep(2000);
 	   flag=true;
 	   return flag;
 	    }
